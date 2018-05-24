@@ -31,7 +31,6 @@ object JavaScript_03DeployToStaging : BuildType({
     triggers {
         vcs {
             id = "vcsTrigger"
-            branchFilter = ""
         }
     }
 })
