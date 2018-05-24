@@ -1,7 +1,7 @@
 package JavaScript.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
-import jetbrains.buildServer.configs.kotlin.v10.triggers.vcs
+import jetbrains.buildServer.configs.kotlin.v2017_2.triggers.vcs
 
 object JavaScript_03DeployToStaging : BuildType({
     uuid = "1627edf8-2bb9-4bc2-b84f-fed5c9e777d7"
